@@ -1,0 +1,13 @@
+2025-04-09 14:38:59,306 [INFO] Created log file
+2025-04-09 14:39:00,153 [INFO] Batch processing nodes for v1/0.
+2025-04-09 14:39:00,201 [INFO] Batch processing nodes for lgn/0.
+2025-04-09 14:39:00,211 [INFO] Batch processing nodes for bkg/0.
+2025-04-09 14:39:13,224 [INFO] Setting up output directory
+2025-04-09 14:39:13,227 [INFO] Building cells.
+2025-04-09 14:39:17,674 [INFO] Building recurrent connections
+2025-04-09 14:40:10,140 [INFO] Network created.
+2025-04-09 14:40:10,142 [INFO] Build virtual cell stimulations for LGN_spikes
+2025-04-09 14:40:19,428 [INFO] Build virtual cell stimulations for BKG_spikes
+2025-04-09 14:40:22,517 [INFO] Starting Simulation
+2025-04-09 14:44:59,313 [INFO] Simulation finished, finalizing results.
+2025-04-09 14:45:10,594 [INFO] Done.

@@ -185,7 +185,8 @@ def make_figure_elements(config_file, radius, sortby):
     spike_df["Sorted ID"] = v1df["Sort Position"].loc[spike_df.index]
     spike_df["Cell Type"] = v1df["Cell Type"].loc[spike_df.index]
     spike_df["Tuning Angle"] = v1df["tuning_angle"].loc[spike_df.index]
-    spike_df['location'] = v1df['location'].loc[spike_df.index]
+    spike_df["Tuning Angle"] = (spike_df["Tuning Angle"] + 180) % 360 # error in original assignment of tuning angles
+    spike_df['layer'] = v1df['location'].loc[spike_df.index]
 
     hue_order = ["Exc", "Pvalb", "Sst", "Vip", "Htr3a"]
     color_order = ["tab:red", "tab:blue", "tab:olive", "tab:purple", "tab:purple"]
